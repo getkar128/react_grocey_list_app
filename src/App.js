@@ -1,4 +1,3 @@
-
 import Header from './Header';
 import SearchItem from './SearchItem';
 import Additem from './Additem';
