@@ -1,5 +1,3 @@
-import React̥ from "react";
-
 const Header = ({ title }) => {
   return (
     <header>
