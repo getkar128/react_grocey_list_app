@@ -19,7 +19,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
     //     console.log(e.target.innerText);
     //   }
   return (
-    <main>
+    <>
         {/* <p onDoubleClick={handleClick}>
             Hello {name}!
         </p>
@@ -34,7 +34,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
         ) : (
           <p style={{marginTop: '2rem'}}>Your List is empty</p>
         )}
-    </main>
+    </>
   )
 }
 
